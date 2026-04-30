@@ -1,7 +1,15 @@
-// Smooth scroll base
+// smooth scroll
 document.documentElement.style.scrollBehavior = "smooth";
 
-// Animazioni on scroll
+// menu toggle
+const toggle = document.querySelector(".menu-toggle");
+const panel = document.querySelector(".menu-panel");
+
+toggle.addEventListener("click", () => {
+  panel.classList.toggle("active");
+});
+
+// scroll reveal
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
