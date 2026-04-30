@@ -9,7 +9,7 @@ body{
 
 .hero{
   height:100vh;
-  background:url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21") center/cover;
+  background:url("hero.jpg") center/cover no-repeat;
   position:relative;
   display:flex;
   align-items:center;
@@ -48,11 +48,11 @@ body{
   font-size:22px;
 }
 
-/* FULL IMAGE */
+/* FOTO FULL WIDTH */
 
 .full-image{
   height:80vh;
-  background:url("https://images.unsplash.com/photo-1493558103817-58b2924bce98") center/cover;
+  background:url("mare.jpg") center/cover no-repeat;
 }
 
 /* EXPERIENCE SPLIT */
@@ -69,10 +69,10 @@ body{
 
 .exp-image{
   flex:1;
-  background:url("https://images.unsplash.com/photo-1504609813442-a8924e83f76e") center/cover;
+  background:url("yacht.jpg") center/cover no-repeat;
 }
 
-/* PILLARS */
+/* 3 PILASTRI */
 
 .pillars{
   display:flex;
@@ -105,4 +105,5 @@ footer{
   text-align:center;
   padding:60px;
   font-size:14px;
+  background:#eee;
 }
