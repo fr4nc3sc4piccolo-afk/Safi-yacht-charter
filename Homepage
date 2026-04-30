@@ -1,0 +1,12 @@
+<!-- Hero Section -->
+<section class="hero">
+  <video autoplay muted loop>
+    <!-- Video del mare/yacht -->
+  </video>
+  <div class="hero-content">
+    <img src="logo-safi.svg" alt="SAFI" class="logo">
+    <h1>صافي</h1>
+    <p class="tagline">Purity in Motion</p>
+    <a href="#discover" class="cta">Scopri l'esperienza</a>
+  </div>
+</section>
