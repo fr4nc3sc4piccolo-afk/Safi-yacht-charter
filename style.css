@@ -107,3 +107,15 @@ footer{
   font-size:14px;
   background:#eee;
 }
+
+/* ANIMAZIONI SCROLL */
+.hidden{
+  opacity:0;
+  transform:translateY(60px);
+  transition:all 1.2s ease;
+}
+
+.visible{
+  opacity:1;
+  transform:translateY(0);
+}
