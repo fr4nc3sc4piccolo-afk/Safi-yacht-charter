@@ -52,7 +52,7 @@ body{
 
 .full-image{
   height:80vh;
-  background:url("mare.jpg") center/cover no-repeat;
+  background:url("about.jpg") center/cover no-repeat;
 }
 
 /* EXPERIENCE SPLIT */
@@ -69,7 +69,7 @@ body{
 
 .exp-image{
   flex:1;
-  background:url("yacht.jpg") center/cover no-repeat;
+  background:url("cta.jpg") center/cover no-repeat;
 }
 
 /* 3 PILASTRI */
