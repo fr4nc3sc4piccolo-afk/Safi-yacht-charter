@@ -68,7 +68,10 @@ body{
   background:rgba(0,0,0,0.35);
 }
 
-.hero-content{position:relative;}
+.hero-content{
+  position:relative;
+  text-transform:uppercase;
+}
 
 .hero h1{
   font-size:110px;
@@ -80,6 +83,13 @@ body{
 .hero-sub{
   letter-spacing:4px;
   margin-top:10px;
+}
+
+.hero-sub-2{
+  letter-spacing:3px;
+  margin-top:6px;
+  font-size:14px;
+  opacity:0.7;
 }
 
 /* MANIFESTO */
@@ -94,7 +104,7 @@ body{
 /* FULL IMAGE */
 .full-image{
   height:80vh;
-  background:url("images/mare.jpg") center/cover no-repeat;
+  background:url("images/about.jpg") center/cover no-repeat;
 }
 
 /* EXPERIENCE */
@@ -113,7 +123,7 @@ body{
 
 .exp-image{
   flex:1;
-  background:url("images/yacht.jpg") center/cover no-repeat;
+  background:url("images/project1.jpg") center/cover no-repeat;
 }
 
 /* PILASTRI */
@@ -204,20 +214,4 @@ footer{
   .pillar:first-child{
     border-top:none;
   }
-}
-
-.hero-sub{
-  letter-spacing:4px;
-  margin-top:10px;
-}
-
-.hero-sub-2{
-  letter-spacing:3px;
-  margin-top:6px;
-  font-size:14px;
-  opacity:0.7;
-}
-
-.hero-content{
-  text-transform:uppercase;
 }
